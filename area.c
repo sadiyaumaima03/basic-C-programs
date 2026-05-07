@@ -8,7 +8,7 @@ float rectangle(float a, float b);
 int main(){
     float a,b;
 
-    printf("Enter your len & wid:");
+    printf("Enter len & wid:");
     scanf("%f %f",&a,&b);
     printf("Area : %.2f\n", rectangle(a,b)); //Function call
 
