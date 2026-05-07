@@ -18,9 +18,9 @@ float convert_fahrenheit(float f);
     }
 
 float convert_celsius(float c){
-    return (c * 9/5) + 32;
+    return (c * 9.0/5.0) + 32;
 }
 
 float convert_fahrenheit(float f){
-    return (f - 32) * 5/9;
+    return (f - 32) * 5.0/9.0;
 }
