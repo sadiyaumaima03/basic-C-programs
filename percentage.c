@@ -4,7 +4,7 @@ int percentage(int sci, int math, int sanskrit);
 
     int main(){
         int science, math, sanskrit;
-        printf("Enter marks for three subs:");
+        printf("Enter marks for math, science & sanskrit:");
         scanf("%d %d %d",&science,&math,&sanskrit);
         printf("Percentage : %d\n",percentage(science, math, sanskrit));
 
